@@ -46,13 +46,13 @@
       <pre>
         <code>
         # npm 6.x
-        npm init vite@latest my-vue-app --template vue
+        npm init vite@latest my-vue-app --template vue-ts
 
         # npm 7+, 需要额外的双横线：
-        npm init vite@latest my-vue-app -- --template vue
+        npm init vite@latest my-vue-app -- --template vue-ts
 
         # yarn
-        yarn create vite my-vue-app --template vue
+        yarn create vite my-vue-app --template vue-ts
         </code>
       </pre>
     </div>
@@ -154,7 +154,7 @@
     </div>
     <h4 class="h4Title">
       8.大功告成，我们看下最后的目录结构和最后的成品。
-      <img src="../../assets/code.png" alt="" width="100%">
+      <img src="../../assets/code.png" alt="" style="width: 100%;">
     </h4>
 
   </div>

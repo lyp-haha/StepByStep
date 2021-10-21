@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="title">目录</h2>
+    <h2 class="title" @click="turnPage('/')">目录</h2>
     <span v-for="i in menuList" :key="i.path" class="item" @click="turnPage(i.path)">
       <img src="../assets/logo.3a645c5f.png" alt="">
       <span class="text">{{i.name}}</span>
@@ -32,6 +32,7 @@ let turnPage = (path:string)=>{
   display: flex;
   align-items: center;
   width: 320px;
+  border-bottom: 1px solid #2376b7;
   .text{
     display: inline-block;
     white-space: nowrap;
